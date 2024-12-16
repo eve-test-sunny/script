@@ -35,7 +35,7 @@ rm -rf vendor/lineage
 
 
 # Clone device-specific repositories
-git clone https://github.com/dpenra/device_xiaomi_sunny.git -b lineage-22 device/xiaomi/sunny
+git clone https://github.com/eve-test-sunny/device_xiaomi_sunny.git -b lineage-22 device/xiaomi/sunny
 git clone https://github.com/yaap/device_qcom_common.git --depth 1 -b fifteen device/qcom/common
 git clone https://github.com/AOSPA/android_device_qcom_qssi.git --depth 1 -b vauxite device/qcom/qssi
 git clone https://github.com/dpenra/device_xiaomi_sunny-kernel.git --depth 1 -b fifteen device/xiaomi/sunny-kernel
