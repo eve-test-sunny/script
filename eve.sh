@@ -69,7 +69,7 @@ git clone https://github.com/extra-application/vendor_xiaomi_dynamicSpot.git --d
 # git clone https://github.com/rising-source-mod/android_frameworks_native.git --depth 1 -b fifteen frameworks/native
 
 # Source modifications and RisingOS-specific keys
-git clone https://github.com/eve-test-sunny/vendor_everest.git --depth 1 -b 15 vendor/lineage
+git clone https://github.com/eve-test-sunny/vendor_everest.git --depth 1 -b 15 vendor/everest
 # git clone https://github.com/private-keys/vendor_lineage-priv_keys.git --depth 1 -b main vendor/lineage-priv/keys
 
 # cd vendor/lineage
