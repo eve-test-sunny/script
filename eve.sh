@@ -2,7 +2,7 @@
 
 
 # Initialize ROM manifest
-repo init -u https://github.com/ProjectEverest/manifest -b 14 --git-lfs
+repo init -u https://github.com/EverestOS-AOSP/manifest -b 15 --git-lfs
 
 # Sync the repo with force to ensure a clean sync
 /opt/crave/resync.sh
