@@ -72,10 +72,10 @@ git clone https://github.com/rising-source-mod/android_packages_apps_Updater.git
 # git clone https://github.com/rising-source-mod/android_vendor_lineage.git --depth 1 -b fifteen vendor/lineage
 # git clone https://github.com/private-keys/vendor_lineage-priv_keys.git --depth 1 -b main vendor/lineage-priv/keys
 
-cd vendor/lineage
-curl -s https://github.com/RisingTechOSS/android_vendor_lineage/commit/114e7aa0798e4f7bc0f8866c9979f9d5a2c72a66.patch | git am
-curl -s https://github.com/RisingTechOSS/android_vendor_lineage/commit/f8a153ad0138477c9cc2c57af95845d7d26ff1c3.patch | git am
-cd ../..
+# cd vendor/lineage
+# curl -s https://github.com/RisingTechOSS/android_vendor_lineage/commit/114e7aa0798e4f7bc0f8866c9979f9d5a2c72a66.patch | git am
+# curl -s https://github.com/RisingTechOSS/android_vendor_lineage/commit/f8a153ad0138477c9cc2c57af95845d7d26ff1c3.patch | git am
+# cd ../..
 # cd packages/apps/Updater
 # curl -s https://github.com/RisingTechOSS/android_packages_apps_Updater/commit/9812469a2340abac46cbd839d5057d58125d9664.patch | git am
 # cd ../../..
@@ -87,7 +87,7 @@ cd ../..
 . build/envsetup.sh
 
 # Choose the target device
-lunch lineage_sunny-user
+lunch everest_sunny-user
 
 # Build the ROM (use mka bacon for a full build)
 mka everest -j$(nproc --all)
