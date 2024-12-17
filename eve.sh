@@ -30,7 +30,7 @@ repo init -u https://github.com/EverestOS-AOSP/manifest -b 15 --git-lfs
 # rm -rf frameworks/native
 # must remove
 rm -rf hardware/qcom-caf/sm8150/media
-rm -rf vendor/lineage
+rm -rf vendor/everest
 # rm -rf packages/apps/Updater
 
 
